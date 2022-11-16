@@ -1,0 +1,64 @@
+*{margin:0;}
+:root{
+  --main-border-radius: 8px;
+  --color-one:rgb(244,188,28);
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color:#00008b;
+}
+h1, h3, h4{
+  color:#000000;
+  font-family: 'Oswald';
+}
+h1.header{
+  background-color:#ffffff;
+  color:#00008b;
+  padding:30px 20px;
+  text-align: center;
+  box-shadow:1px 1px 5px #cccccc;
+}
+section.app_container{
+  padding: 40px 0;
+  width:40%;
+  margin: 0 auto;
+}
+div.inputs{
+  text-align:center;
+}
+div.inputs h4{
+  margin-bottom:15px;
+  color:#ffffff;
+}
+div.inputs input[type='text']{
+  width:60%;
+  padding:9px 20px;
+  border-radius:8px;
+  border: none;
+  box-shadow:1px 1px 5px #cccccc;
+}
+div.inputs input[type='text']::focus{
+  border: none;
+}
+div.inputs button{
+  padding:8px 20px;
+  font-size:16px;
+  border-radius:8px;
+  border: none;
+  background-color:rgb(244,188,28);
+}
+div.result{
+  margin: 20px 0;
+  padding: 20px;
+  background-color: rgb(244,188,28);
+  text-align:center;
+  border-radius: var(--main-border-radius);
+}
+div.weather_info{
+  display: flex;
+  justify-content: space-between;
+  padding-top:40px;
+}
